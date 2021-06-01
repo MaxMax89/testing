@@ -29,4 +29,14 @@ for($index = 0; $index < strlen(mystring); $index++)
 	$char = $mystring{$index};
 	print("$char$char");
 }
+
+$string1 = "<br>"."Это часть";
+$string2 = "строки";
+
+echo $string1." простой ".$string2."<br>";
+
+$string1 .= " простой ";
+$string1 .= $string2;
+
+echo $string1;
 ?>
