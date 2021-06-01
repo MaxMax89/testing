@@ -22,4 +22,11 @@ $play3 = "Я люблю играть в {$sport3}бол.<br>";
 echo $play1;
 echo $play2;
 echo $play3;
+
+$mystring = "Doubled";
+for($index = 0; $index < strlen(mystring); $index++)
+{
+	$char = $mystring{$index};
+	print("$char$char");
+}
 ?>
