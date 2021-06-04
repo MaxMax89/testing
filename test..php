@@ -39,4 +39,14 @@ $string1 .= " простой ";
 $string1 .= $string2;
 
 echo $string1;
+
+$string3 = <<<DDD
+<form method="post" action="{$_SERVER['PHP_SELF']}">
+    <input type="text" name="login" placeholder="Введите имя..."><br>
+	<input type="password" name="password" placeholder="Введите пароль..."><br>
+	<input type="submit" value="Отправить">
+</form>
+DDD;
+
+echo $string3;
 ?>
