@@ -49,4 +49,10 @@ $string3 = <<<DDD
 DDD;
 
 echo $string3;
+
+$en_str = "Hello world!";
+$rus_str = "привет мир";
+
+echo $en_str." - ".strlen($en_str)." символов<br>";
+echo $rus_str." - ".mb_strlen($rus_str, 'UTF8')." символов<br>";
 ?>
