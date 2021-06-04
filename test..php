@@ -82,5 +82,8 @@ $str1 = "Эти символы ($,*,^) нужно преобразоватью";
 
 echo quotemeta($str1)."<br>";
 
+$value = 3.14159;
+printf ("%f<br> %10f<br> %-10f<br> %2.2f", $value, $value, $value, $value);
+
 
 ?>
