@@ -70,7 +70,10 @@ echo "<br>Подстрока '<b>$find_str</b>' в исходной строке
 
 echo "<br>".mb_substr($str, 7, 3, 'UTF8');
 echo "<br>".mb_substr($str, -4, 3,  'UTF8');
-echo "<br>".mb_substr($str, 0, -5,  'UTF8');
+echo "<br>".mb_substr($str, 0, -5,  'UTF8')."<br>";
+
+echo str_replace("мир","планета", $str)."<br>";
+echo substr_replace("ABCDEFG","-", 2, 3)."<br>";
 
 
 ?>
