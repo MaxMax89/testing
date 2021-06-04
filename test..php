@@ -78,5 +78,9 @@ echo substr_replace("ABCDEFG","-", 2, 3)."<br>";
 echo mb_strtolower($str, 'UTF8')."<br>";
 echo mb_strtoupper($str, 'UTF8')."<br>";
 
+$str1 = "Эти символы ($,*,^) нужно преобразоватью";
+
+echo quotemeta($str1)."<br>";
+
 
 ?>
