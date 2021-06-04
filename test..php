@@ -63,5 +63,10 @@ $rus_str1 ="Привет мир!";
 echo "Символ 'l': ".strpos($en_str1, 'l');
 echo "<br>Символ 'м': ".mb_strpos($rus_str1,'м');
 
+$str = "Привет мир!";
+$find_str = "мир";
+
+echo "<br>Подстрока '<b>$find_str</b>' в исходной строке: ".strstr($str, $find_str);
+
 
 ?>
