@@ -55,4 +55,13 @@ $rus_str = "привет мир";
 
 echo $en_str." - ".strlen($en_str)." символов<br>";
 echo $rus_str." - ".mb_strlen($rus_str, 'UTF8')." символов<br>";
+
+
+$en_str1 = "Hello world!";
+$rus_str1 ="Привет мир!";
+
+echo "Символ 'l': ".strpos($en_str1, 'l');
+echo "<br>Символ 'м': ".mb_strpos($rus_str1,'м');
+
+
 ?>
