@@ -85,5 +85,16 @@ echo quotemeta($str1)."<br>";
 $value = 3.14159;
 printf ("%f<br> %10f<br> %-10f<br> %2.2f", $value, $value, $value, $value);
 
+$str2 = "Hello world!";
+echo "<br>"."Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
+
+$str2 = "Hello, world!";
+echo "Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
+
+$str2 = "Hello world";
+echo "Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
+
+
+
 
 ?>
