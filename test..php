@@ -94,7 +94,7 @@ echo "Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
 $str2 = "Hello world";
 echo "Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
 
-
+echo levenshtein('tim', 'time');
 
 
 ?>
