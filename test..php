@@ -102,6 +102,9 @@ $token = strtok("open-sourse html-embedded server-side web scripting", " ");
 while ($token) {
 	 echo $token."<br>";
 	 $token = strtok(" ");
+
+	 $explode_result = explode("and", "one and a two and a three"); 
+	 
 	
 }
 ?>
