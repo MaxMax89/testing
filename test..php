@@ -94,7 +94,14 @@ echo "Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
 $str2 = "Hello world";
 echo "Хэш-код для строки '$str': <b>".md5($str)."</b><br>";
 
-echo levenshtein('tim', 'time');
+echo levenshtein('tim', 'time')."<br>";
 
 
+$token = strtok("open-sourse html-embedded server-side web scripting", " ");
+
+while ($token) {
+	 echo $token."<br>";
+	 $token = strtok(" ");
+	
+}
 ?>
